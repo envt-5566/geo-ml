@@ -1,10 +1,16 @@
 # geo-ml
 
-## Docker
+## Local development
+
+### Docker
+
+Build the local development image:
 
 ```
 docker build -t envt-5566 .
 ```
+
+Launch the container:
 
 ```
 docker run -it --rm \
@@ -13,7 +19,9 @@ docker run -it --rm \
   envt-5566
 ```
 
-## Colab URLS
+## Colab deployment
+
+These notebooks can be run from Google Colab via the following URLs:
 
 * Introduction to ML: https://colab.research.google.com/github/envt-5566/geo-ml/blob/main/notebooks/ml-introduction.ipynb
-* Introduction to ML: https://colab.research.google.com/github/envt-5566/geo-ml/blob/main/notebooks/evaluating-ml-models.ipynb
+* Evaluating geospatial ML models: https://colab.research.google.com/github/envt-5566/geo-ml/blob/main/notebooks/evaluating-ml-models.ipynb
