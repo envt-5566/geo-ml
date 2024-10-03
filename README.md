@@ -12,3 +12,8 @@ docker run -it --rm \
   -v "${PWD}":/home/jovyan/work \
   envt-5566
 ```
+
+## Colab URLS
+
+* Introduction to ML: https://colab.research.google.com/github/envt-5566/geo-ml/blob/main/notebooks/ml-introduction.ipynb
+* Introduction to ML: https://colab.research.google.com/github/envt-5566/geo-ml/blob/main/notebooks/evaluating-ml-models.ipynb
